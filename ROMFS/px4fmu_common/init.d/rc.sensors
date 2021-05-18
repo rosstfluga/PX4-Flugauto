@@ -29,7 +29,7 @@ fi
 # Start batmon driver if enabled using BATMON_DRIVER_EN
 if param compare -s BATMON_DRIVER_EN 1
 then
-	batmon start -X -b 4  #start on external bus
+	batmon start -X -b 2  #start on external bus
 fi
 
 # Sensors on the PWM interface bank
